@@ -76,3 +76,18 @@ section .btn-contato:hover{
     transition: 0.4s;
     font-size: 21px;
 }
+
+main .conteudo-01{
+    width: 1000px;
+    color: white;
+}
+
+#ideia-realidade {
+    background-color: #983CBD;
+}
+
+#ideia-realidade > h1{
+    font-family: var(--font-para-titulo);
+    margin-bottom: 10px;
+}
+
