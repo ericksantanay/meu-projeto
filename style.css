@@ -8,7 +8,7 @@
     --color-2: #56226B;
     --color-3: #B548E0;
     --color-4: #772F94;
-    --color:   #983CBD;
+    --color-5: #983CBD;
     --font-para-o-menu: "Red Rose", serif;
     --font-para-titulo: "Mozilla Headline", sans-serif;
     --font-para-texto: "Google Sans Code", monospace;
@@ -29,7 +29,7 @@ body{
 }
 
 /* */
-/*navbar*/
+/*Inicio*/
 header nav{
     border-bottom: 1px solid blue;
     padding: 10px 100px;
@@ -47,4 +47,21 @@ section #img-logo > img{
     width: 100px;
     height: 100px;
     border-radius: 50%;
+}
+
+section #menus > a{
+    color: white;
+    margin-left: 25px;
+    
+}
+
+section #menus  >a:hover{
+    color: #B548E0;
+    text-decoration: underline;
+    transition: 0.3s;
+    font-size: 22px;
+}
+
+section btn{
+    color: white;
 }
