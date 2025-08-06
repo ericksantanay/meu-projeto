@@ -31,7 +31,7 @@ body{
 /* */
 /*Inicio*/
 header nav{
-    border-bottom: 1px solid blue;
+    border-bottom: 1px solid  var(--color-3);
     padding: 10px 100px;
 }
 
@@ -43,7 +43,7 @@ section {
     margin: 0 auto;
 }
 
-section #img-logo > img{
+section #img-logo  a > img{
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -52,16 +52,27 @@ section #img-logo > img{
 section #menus > a{
     color: white;
     margin-left: 25px;
-    
+    font-size: 18px;
 }
 
 section #menus  >a:hover{
-    color: #B548E0;
+    color: var(--color-3);
     text-decoration: underline;
     transition: 0.3s;
-    font-size: 22px;
+    font-size: 23px;
 }
 
-section btn{
+section .btn-contato{
     color: white;
+    font-size: 18px;
+    background-color: green;
+    padding: 20px;
+    border-radius: 60px;
+}
+
+section .btn-contato:hover{
+    color: white;
+    text-decoration: underline;
+    transition: 0.4s;
+    font-size: 21px;
 }
