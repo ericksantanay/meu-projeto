@@ -33,18 +33,18 @@ body{
 
 header{
     border-bottom: 1px solid  var(--color-3);
-    padding:  10px 4%;
-    
+    max-width: 100%;
 }
 
 nav{
-     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    margin-top: 10px;
 }
 
 section {
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 3rem;
 }
 
 section #img-logo  a > img{
