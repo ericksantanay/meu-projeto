@@ -32,15 +32,16 @@ body{
 /*Inicio*/
 header nav{
     border-bottom: 1px solid  var(--color-3);
-    padding: 10px 100px;
+    max-width: 1200px;
+    padding: 0px 10rem;
+    
 }
 
 section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1280;
-    margin: 0 auto;
+    margin:auto;
 }
 
 section #img-logo  a > img{
