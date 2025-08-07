@@ -74,7 +74,7 @@ section .btn-contato{
     border-radius: 60px;
 }
 
-section .btn-contato:hover{
+section  > .btn-contato:hover{
     color: white;
     text-decoration: underline;
     transition: 0.4s;
@@ -84,15 +84,15 @@ section .btn-contato:hover{
 /*Conteudo*/
 
 main{
-    max-width: 1200px;
-    margin: auto;
+    max-width: 1000px;
+    margin: 0 auto;
     margin-top: 20px;
-    padding: 20px;
+    
 }
 
-main .conteudo-01{
+main > .conteudo-01{
     color: white;
-    display: flex;
+   
 }
 
 #ideia-realidade {
@@ -102,7 +102,6 @@ main .conteudo-01{
     box-shadow: rgba(100, 100, 101, 0.1) 0px 2px 24px 0px;
     text-align: center;
     border-radius: 7px;
-    margin-right: 60px;
 }
 
 #ideia-realidade > h1{
