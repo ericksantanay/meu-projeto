@@ -45,7 +45,6 @@ section {
 
 section #img-logo  a > img{
     width: 100px;
-    height: auto;
     border-radius: 50%;
 }
 
@@ -86,26 +85,36 @@ main .conteudo-01{
 
 #ideia-realidade {
     background-color: #983CBD;
+    height: 400px;
+    text-align: center;
 }
 
 #ideia-realidade > h1{
     font-family: var(--font-para-titulo);
     margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
 }
 
 #ideia-realidade > p{
     line-height: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     font-family: var(--font-para-texto);
+    padding: 10px;
 }
 
-#ideia-realidade > a{
-    margin-bottom: ;
+#ideia-realidade a{
     color: white;
     font-family: var(--font-para-o-menu);
     color: white;
-    font-size: 18px;
+    font-size: 15px;
     background-color: green;
-    padding: 20px;
+    padding: 15px;
     border-radius: 60px;
+}
+
+#ideia-realidade a:hover{
+    transition: 0.3s;
+    font-size: 19px;
+    text-decoration: underline;
 }
