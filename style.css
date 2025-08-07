@@ -33,20 +33,18 @@ body{
 
 header{
     border-bottom: 1px solid  var(--color-3);
+    padding:  10px 4%;
     
 }
 
-header nav{
-    max-width: 1200px;
+nav{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin:auto;
-    padding: 0 1rem;
-    max-width: 1200px;
+
 }
 
 section #img-logo  a > img{
