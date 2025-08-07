@@ -78,18 +78,24 @@ section .btn-contato:hover{
     font-size: 21px;
 }
 
+/*Conteudo*/
+
+main{
+    margin: auto;
+    margin-top: 20px;
+}
+
 main .conteudo-01{
-    width: 1000px;
-    height: 1000px;
     color: white;
+    display: flex;
 }
 
 #ideia-realidade {
+    width: 570px;
+    height: 400px;
     background-color: rgba(0, 0, 0, 0.226);
     box-shadow: rgba(100, 100, 101, 0.1) 0px 2px 24px 0px;
-    height: 400px;
     text-align: center;
-    margin-right: 80px;
     border-radius: 7px;
 }
 
